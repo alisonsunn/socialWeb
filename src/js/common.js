@@ -1,9 +1,11 @@
 import {profile, sidebar, highline} from "../../data/db.json";
 import { Profile } from "./component/mainLeft/profile";
 import {Sidebar} from "./component/mainLeft/sidebar";
-import {PostButton} from "./component/mainLeft/postBUtton";
+import {PostButton} from "./component/mainLeft/postButton";
 import { createPost } from "./component/mainMiddle/createPost";
 import {Highline} from "./component/mainMiddle/highline"
+import { createMessage } from "./component/mainRight/createMessage";
+import { activeMessage } from "./component/mainRight/activeMessage";
 
 /* NavBar */
 export const navbar = document.querySelector('nav');
@@ -21,6 +23,7 @@ export const main_container = main.querySelector('.container');
 
 
 /* Main Left */
+
 export const main_left = main_container.querySelector('.main-left');
 // profoile
 const main_profile = new Profile(profile.img_src, profile.name, profile.at)
@@ -36,9 +39,9 @@ export const highlineBar = new Highline().createHighline(highline);
 
 export const post = createPost(profile);
 
-/* Create News */
-
-
+/* Main Right */
+export const main_right = main_container.querySelector(".main-right");
+export const create_message = createMessage();
 /* Create Profile */
 
 

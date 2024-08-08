@@ -11,9 +11,9 @@
 
 .highlineItem {
   position: relative;
-  border-radius: 10%;
-  width: 6rem;
-  height: 10rem;
+  border-radius: 1rem;
+  flex: 1;
+  height: 12rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -27,7 +27,7 @@
 .highlineItem::before {
   content: "";
   position: absolute;
-  border-radius: 10%;
+  border-radius: 1rem;
   display: block;
   background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   bottom: 0;
