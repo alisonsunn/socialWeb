@@ -22,6 +22,10 @@
   position: relative;
 }
 
+.function-panel span {
+  cursor: pointer;
+}
+
 .function-panel::before {
   content: "";
   position: absolute;

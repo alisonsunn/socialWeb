@@ -1,4 +1,4 @@
-import {profile, sidebar, highline, message} from "../../data/db.json";
+import {profile, sidebar, highline, message, request} from "../../data/db.json";
 import { Profile } from "./component/mainLeft/profile";
 import {Sidebar} from "./component/mainLeft/sidebar";
 import {PostButton} from "./component/mainLeft/postButton";
@@ -6,6 +6,7 @@ import { createPost } from "./component/mainMiddle/createPost";
 import {Highline} from "./component/mainMiddle/highline"
 import { createMessage } from "./component/mainRight/createMessage";
 import { Message } from "./component/mainRight/message";
+import {Requests} from "./component/mainRight/requests";
 
 /* NavBar */
 export const navbar = document.querySelector('nav');
@@ -43,6 +44,9 @@ export const post = createPost(profile);
 export const main_right = main_container.querySelector(".main-right");
 export const create_message = createMessage();
 export const messages = new Message().createMessage(message);
+
+export const requests = new Requests(request).createRequests();
+
 /* Create Profile */
 
 

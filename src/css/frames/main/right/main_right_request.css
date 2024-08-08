@@ -1,1 +1,35 @@
 /* --- Main Right Request --- */
+
+.profile {
+  display: flex;
+  gap: 1rem;
+}
+
+.profile-info h3 {
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.profile-info p {
+  color: var(--color-gray);
+  font-size: 10px;
+}
+
+.requestsInfo {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.decline {
+  background-color: #fff;
+  border: 1px solid lightgray;
+}
+
+h2 {
+  margin-top: 1rem;
+}
