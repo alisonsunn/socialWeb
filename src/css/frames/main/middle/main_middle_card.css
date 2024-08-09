@@ -32,3 +32,29 @@
   font-size: 0.8rem;
   color: var(--color-gray);
 }
+
+.info-control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-control i {
+  font-size: 1.2rem;
+}
+
+i.uil-heart.control_heart::before,
+i.uil-comment-dots::before,
+i.uil-share-alt::before {
+  color: var(--color-primary);
+}
+
+i.uil-bookmark::before {
+  color: var(--color-collection);
+}
+
+.card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 0.8rem;
+}

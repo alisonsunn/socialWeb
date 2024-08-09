@@ -39,6 +39,8 @@ class Card {
     this.#dom.classList.add("card");
     this.#dom.appendChild(new InfoProfile(this.#card.profile).build());
     this.#dom.appendChild(new InfoPicture(this.#card.picture).build());
+    this.#dom.appendChild(new InfoControl(this.#card.control).build());
+    // this.#dom.appendChild(new InfoControl(this.#card.control).build);
     this.#dom.appendChild(new InfoComment(this.#card.comment).build());
 
     return this.#dom;
@@ -46,6 +48,34 @@ class Card {
 
   get createCard() {
     return this.#createCard;
+  }
+}
+
+class InfoControl {
+  #info = null;
+  #dom = null;
+
+  constructor(info) {
+    this.#info = info;
+  }
+
+  #build = () => {
+    this.#dom = document.createElement("div");
+    this.#dom.classList.add("info-control");
+    this.#dom.innerHTML = `
+    <div class="main-control">
+      <i class="uil uil-heart control_heart"></i>
+      <i class="uil uil-comment-dots"></i>
+      <i class="uil uil-share-alt"></i>
+    </div>
+    <i class="uil uil-bookmark"></i>
+    `
+    return this.#dom;
+  }
+
+  get build() {
+    return this.#build;
+    // return this.#build();
   }
 }
 
