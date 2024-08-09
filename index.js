@@ -1,6 +1,6 @@
 import "./index.css";
 import { profile } from "./data/db.json";
-import { navbar_container_logo, navbar_container_img, main_left, main_left_profile, side_bar, createPost_button, main_middle, highlineBar, post, create_message, main_right, messages, requests } from "@/js/common";
+import { navbar_container_logo, navbar_container_img, main_left, main_left_profile, side_bar, createPost_button, main_middle, highlineBar, post, create_message, main_right, messages, requests, cardlist } from "@/js/common";
 import { activeMessage } from "@/js/component/mainRight/activeMessage";
 
 
@@ -16,6 +16,7 @@ main_left.appendChild(createPost_button);
 /* MIDDLE */
 main_middle.appendChild(highlineBar);
 main_middle.appendChild(post);
+main_middle.appendChild(cardlist);
 
 /* RIGHT */
 main_right.appendChild(create_message);
