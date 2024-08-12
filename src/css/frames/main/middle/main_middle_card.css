@@ -36,6 +36,7 @@
 .info-control {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1.2rem;
 }
 
 .info-control i {
@@ -46,6 +47,11 @@ i.uil-heart.control_heart::before,
 i.uil-comment-dots::before,
 i.uil-share-alt::before {
   color: var(--color-primary);
+}
+
+i.uil-bookmark.card {
+  padding: 0;
+  margin: 0;
 }
 
 i.uil-bookmark.card::before {
