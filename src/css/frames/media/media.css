@@ -1,0 +1,58 @@
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .main-left {
+    display: none;
+  }
+
+  main .container {
+    grid-template-columns: auto 30dvw;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .main-left {
+    display: none;
+  }
+
+  .main-right {
+    display: none;
+  }
+
+  main .container {
+    grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .search-bar {
+    display: none;
+  }
+
+  .create {
+    display: none;
+  }
+
+  .btn {
+    font-size: 0.7rem;
+  }
+
+  .btn.btn-primary.post {
+    padding: 5px 15px;
+  }
+
+  .createPost input[type="text"] {
+    font-size: 10px;
+  }
+
+  .main-left {
+    display: none;
+  }
+
+  .main-right {
+    display: none;
+  }
+
+  main .container {
+    grid-template-columns: auto;
+  }
+}

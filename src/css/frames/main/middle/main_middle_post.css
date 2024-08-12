@@ -13,6 +13,7 @@
   background-color: var(--main-middle-post-background-color);
   padding: var(--main-middle-btn-padding);
   border-radius: var(--main-middle-post-radius);
+  position: sticky;
 }
 
 .createPost input[type="text"] {

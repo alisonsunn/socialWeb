@@ -5,7 +5,7 @@ import { activeMessage } from "@/js/component/mainRight/activeMessage";
 
 
 /* NAV */
-navbar_container_logo.textContent = "TopSocial";
+navbar_container_logo.textContent = "CatSpace";
 navbar_container_img.src = profile.img_src;
 
 /* LEFT */

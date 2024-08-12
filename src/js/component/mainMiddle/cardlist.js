@@ -68,7 +68,7 @@ class InfoControl {
       <i class="uil uil-comment-dots"></i>
       <i class="uil uil-share-alt"></i>
     </div>
-    <i class="uil uil-bookmark"></i>
+    <i class="uil uil-bookmark card"></i>
     `
     return this.#dom;
   }

@@ -6,7 +6,7 @@
   aspect-ratio: 1;
   border-radius: 50%;
   overflow: hidden;
-  border: 0.16rem solid var(--color-primary);
+  border: 0.16rem solid rgb(163, 160, 160);
 }
 
 .profile-photo img {

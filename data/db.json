@@ -1,8 +1,8 @@
 {
   "profile": {
-    "name": "Elden Lord",
-    "at": "@EldenRing",
-    "img_src": "/images/profile/profile_1.png"
+    "name": "Isabella Taylor",
+    "at": "@Isabella",
+    "img_src": "/images/profile/profile_1.jpg"
   },
   "sidebar": [
     {
@@ -74,80 +74,80 @@
     {
       "id": 1,
       "title": "Your Stories",
-      "background": "/images/highline/highline_1.jpeg",
-      "img_src": "/images/profile/profile_2.png"
+      "background": "/images/highline/highline_1.jpg",
+      "img_src": "/images/profile/profile_1.jpg"
     },
     {
       "id": 2,
       "title": "Your View",
-      "background": "/images/highline/highline_2.jpeg",
-      "img_src": "/images/profile/profile_3.png"
+      "background": "/images/highline/highline_2.jpg",
+      "img_src": "/images/profile/profile_2.jpg"
     },
     {
       "id": 3,
       "title": "Your Emotion",
-      "background": "/images/highline/highline_3.jpeg",
-      "img_src": "/images/profile/profile_4.png"
+      "background": "/images/highline/highline_3.jpg",
+      "img_src": "/images/profile/profile_3.jpg"
     },
     {
       "id": 4,
       "title": "Your Opinion",
-      "background": "/images/highline/highline_4.jpeg",
-      "img_src": "/images/profile/profile_5.png"
+      "background": "/images/highline/highline_4.jpg",
+      "img_src": "/images/profile/profile_4.jpg"
     },
     {
       "id": 5,
       "title": "Your Feeling",
-      "background": "/images/highline/highline_5.jpeg",
-      "img_src": "/images/profile/profile_6.png"
+      "background": "/images/highline/highline_5.jpg",
+      "img_src": "/images/profile/profile_5.jpg"
     },
     {
       "id": 6,
       "title": "Your Love",
-      "background": "/images/highline/highline_6.jpeg",
-      "img_src": "/images/profile/profile_7.png"
+      "background": "/images/highline/highline_6.jpg",
+      "img_src": "/images/profile/profile_6.jpg"
     }
   ],
   "cards": [
     {
       "id": 1,
       "profile": {
-        "src": "/images/profile/profile_2.png",
-        "name": "Lana Rose",
-        "position": "Somewhere",
+        "src": "/images/profile/profile_1.jpg",
+        "name": "Isabella Taylor",
+        "position": "Sydeny",
         "time": "15 MINUTES AGO"
       },
       "picture": {
-        "img_src": "/images/post/post_5.jpeg"
+        "img_src": "/images/post/post_1.jpg"
       },
       "comment": {
         "img_src_list": [
-          "/images/profile/profile_5.png",
-          "/images/profile/profile_6.png",
-          "/images/profile/profile_7.png"
+          "/images/profile/profile_2.jpg",
+          "/images/profile/profile_5.jpg",
+          "/images/profile/profile_3.jpg"
         ],
         "first_people_name": "Ernest Achiever",
         "like_peoples_number": 2323,
-        "comment_info": "Lana Rose Lorem ipsum dolor sit quisquam eius. #lifestyle",
+        "comment_info": "Olivia Brown: Enjoy my life:) #lifestyle",
         "view_number": 3473
       }
     },
     {
       "id": 2,
       "profile": {
-        "src": "/images/profile/profile_3.png",
-        "name": "Jacey Chang",
-        "position": "Somewhere",
+        "src": "/images/profile/profile_2.jpg",
+        "name": "Olivia Brown",
+        "position": "China",
         "time": "15 MINUTES AGO"
       },
       "picture": {
-        "img_src": "/images/post/post_6.jpeg"
+        "img_src": "/images/post/post_2.jpg"
       },
       "comment": {
         "img_src_list": [
-          "/images/profile/profile_5.png",
-          "/images/profile/profile_6.png",
-          "/images/profile/profile_7.png"
+          "/images/profile/profile_2.jpg",
+          "/images/profile/profile_5.jpg",
+          "/images/profile/profile_3.jpg"
         ],
         "first_people_name": "Ernest Achiever",
         "like_peoples_number": 2323,
@@ -158,19 +158,19 @@
     {
       "id": 3,
       "profile": {
-        "src": "/images/profile/profile_4.png",
-        "name": "Annie Liang",
+        "src": "/images/profile/profile_3.jpg",
+        "name": "Sophia Davis",
         "position": "Somewhere",
         "time": "15 MINUTES AGO"
       },
       "picture": {
-        "img_src": "/images/post/post_7.jpeg"
+        "img_src": "/images/post/post_3.jpg"
       },
       "comment": {
         "img_src_list": [
-          "/images/profile/profile_5.png",
-          "/images/profile/profile_6.png",
-          "/images/profile/profile_7.png"
+          "/images/profile/profile_2.jpg",
+          "/images/profile/profile_5.jpg",
+          "/images/profile/profile_3.jpg"
         ],
         "first_people_name": "Ernest Achiever",
         "like_peoples_number": 2323,
@@ -181,19 +181,19 @@
     {
       "id": 4,
       "profile": {
-        "src": "/images/profile/profile_5.png",
-        "name": "Sunny Agory",
+        "src": "/images/profile/profile_4.jpg",
+        "name": "Liam Garcia",
         "position": "Somewhere",
         "time": "15 MINUTES AGO"
       },
       "picture": {
-        "img_src": "/images/post/post_8.jpeg"
+        "img_src": "/images/post/post_4.jpg"
       },
       "comment": {
         "img_src_list": [
-          "/images/profile/profile_5.png",
-          "/images/profile/profile_6.png",
-          "/images/profile/profile_7.png"
+          "/images/profile/profile_2.jpg",
+          "/images/profile/profile_5.jpg",
+          "/images/profile/profile_3.jpg"
         ],
         "first_people_name": "Ernest Achiever",
         "like_peoples_number": 2323,
@@ -204,19 +204,19 @@
     {
       "id": 5,
       "profile": {
-        "src": "/images/profile/profile_7.png",
-        "name": "Lonnie Guo",
-        "position": "Somewhere",
-        "time": "15 MINUTES AGO"
+        "src": "/images/profile/profile_5.jpg",
+        "name": "William Martinez",
+        "position": "Italy",
+        "time": "20 MINUTES AGO"
       },
       "picture": {
-        "img_src": "/images/post/post_9.jpeg"
+        "img_src": "/images/post/post_5.jpg"
       },
       "comment": {
         "img_src_list": [
-          "/images/profile/profile_5.png",
-          "/images/profile/profile_6.png",
-          "/images/profile/profile_7.png"
+          "/images/profile/profile_2.jpg",
+          "/images/profile/profile_5.jpg",
+          "/images/profile/profile_3.jpg"
         ],
         "first_people_name": "Ernest Achiever",
         "like_peoples_number": 2323,
@@ -228,46 +228,46 @@
   "message": [
     {
       "id": 1,
-      "src": "/images/profile/profile_2.png",
-      "name": "Tomas Li",
+      "src": "/images/profile/profile_5.jpg",
+      "name": "William Martinez",
       "msg": "Hi, Long time no see!"
     },
     {
       "id": 2,
-      "src": "/images/profile/profile_3.png",
-      "name": "Lana Rose",
+      "src": "/images/profile/profile_2.jpg",
+      "name": "Olivia Brown",
       "msg": "Birthday Tomorrow!"
     },
     {
       "id": 3,
-      "src": "/images/profile/profile_4.png",
-      "name": "No One",
+      "src": "/images/profile/profile_3.jpg",
+      "name": "Sophia Davis",
       "msg": "lol u right."
     },
     {
       "id": 4,
-      "src": "/images/profile/profile_5.png",
-      "name": "Emily",
+      "src": "/images/profile/profile_4.jpg",
+      "name": "Liam Garcia",
       "msg": "emm, sounds good."
     },
     {
       "id": 5,
-      "src": "/images/profile/profile_6.png",
-      "name": "Alex",
+      "src": "/images/profile/profile_6.jpg",
+      "name": "Mia Thomas",
       "msg": "hang on, give me a sec."
     }
   ],
   "request": [
     {
       "id": 1,
-      "src": "/images/profile/profile_7.png",
-      "name": "Hajia Bintu",
+      "src": "/images/profile/profile_7.jpg",
+      "name": "James Wilson",
       "mutualFriendNum": 8
     },
     {
       "id": 2,
-      "src": "/images/profile/profile_8.png",
-      "name": "Jackline Mensah",
+      "src": "/images/profile/profile_8.jpg",
+      "name": "Ethan Anderson",
       "mutualFriendNum": 19
     }
   ]

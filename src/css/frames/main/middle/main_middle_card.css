@@ -48,7 +48,7 @@ i.uil-share-alt::before {
   color: var(--color-primary);
 }
 
-i.uil-bookmark::before {
+i.uil-bookmark.card::before {
   color: var(--color-collection);
 }
 

@@ -1,1 +1,6 @@
 /* --- Main Right --- */
+.main-right {
+  position: sticky;
+  top: -25rem;
+  height: calc(100vh - 10.4rem);
+}
